@@ -1,0 +1,20 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "2",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.7"
+  }
+}
